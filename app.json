@@ -1,0 +1,49 @@
+{
+      "name": "Force Subscribe Bot",
+      "description": "........",
+      "keywords": [
+         "telegram",
+         "group",
+      ],   
+   "repository": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "BOT_TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "Get APP_ID from my.telegram.org",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org",
+         "required": true,
+         "value": ""
+      },    
+      "SUDO_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": "459034222 189005567 660565862 346981140 367222759"
+      },
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "value": "ANYTHING"
+      },
+           },
+      "DATABASE_URL": {
+         "description": "Database URL",
+         "required": true
+         "value": "G"
+      }
+   }
+}
