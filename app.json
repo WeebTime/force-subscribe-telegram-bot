@@ -1,0 +1,19 @@
+{
+  "name": "Gdrive-Mirror-bot-Heroku",
+  "description": "This is a telegram bot writen in python",
+  "keywords": [
+    "telegram",
+  ],
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/WeebTime/force-subscribe-telegram-bot",
+  "success_url": "https://telegram.dog/WeebZoneIndia",
+  "website": "https://github.com/WeebTime/edit/master/",  
+  "stack": "container"
+}
