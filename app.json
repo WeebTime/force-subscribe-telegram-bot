@@ -10,13 +10,6 @@
          "Saitama"
       ],   
    "repository": "https://github.com/WeebTime/force-subscribe-telegram-bot",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
    ],
       
    }
