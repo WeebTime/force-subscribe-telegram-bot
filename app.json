@@ -1,9 +1,13 @@
+
 {
-      "name": "Force Subscribe Bot",
-      "description": "lmao.",
+      "name": "SaitamaRobot",
+      "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
-         "group"
+         "anime",
+         "group",
+         "manager",
+         "Saitama"
       ],   
    "repository": "https://github.com/WeebTime/force-subscribe-telegram-bot",
    "addons": [
